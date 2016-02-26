@@ -1,11 +1,12 @@
 #include <stdio.h>
-int a, b;
+int a, b, c;
 int main()
 {
-    printf("vvedi chislo a");
+    printf("vvedi chislo a: ");
     scanf("%d",&a);
-    printf("Vvedi chislo b");
+    printf("Vvedi chislo b: ");
     scanf("%d",&b);
-    printf("%d, %d",a,b);
+    c=a+b;
+    printf("%d+%d=%d",a,b,c);
     return 0;
 }
