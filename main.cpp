@@ -2,9 +2,9 @@
 int a, b, c;
 int main()
 {
-    printf("vvedi chislo a: ");
+    printf("chislo a: ");
     scanf("%d",&a);
-    printf("Vvedi chislo b: ");
+    printf("chislo b: ");
     scanf("%d",&b);
     c=a+b;
     printf("%d+%d=%d",a,b,c);
