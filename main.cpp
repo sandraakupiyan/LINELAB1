@@ -2,11 +2,13 @@
 
 int main()
 {
- int a, b;
- printf ("vveditr a end b: ");
- scanf ("%d,%d",&a,&b);
-  printf ("%d+%d=%d",a,b,a+b);
-  printf ("%d-%d=%d",a,b,a-b);
-  printf ("%d*%d=%d",a,b,a*b);
- return 0;
+    printf("chislo a: ");
+    scanf("%d",&a);
+    printf("chislo b: ");
+    scanf("%d",&b);
+    printf("%d+%d=%d",a,b,a+b);
+    printf("%d-%d=%d",a,b,a-b);
+    printf("%d*%d=%d",a,b,a*b);
+    printf("%d/%d=%d",a,b,a/b);
+    return 0;
 }
