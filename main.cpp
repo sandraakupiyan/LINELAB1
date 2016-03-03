@@ -6,7 +6,9 @@ int main()
     scanf("%d",&a);
     printf("chislo b: ");
     scanf("%d",&b);
-    c=a+b;
-    printf("%d+%d=%d",a,b,c);
+    printf("%d+%d=%d",a,b,a+b);
+    printf("%d-%d=%d",a,b,a-b);
+    printf("%d*%d=%d",a,b,a*b);
+    printf("%d/%d=%d",a,b,a/b);
     return 0;
 }
